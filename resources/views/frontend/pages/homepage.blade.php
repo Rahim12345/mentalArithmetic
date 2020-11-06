@@ -9,31 +9,31 @@
 @endsection
 
 @section('content')
-    <div class="row" style="margin-top: 10px;">
+    <div class="row" style="margin-top: 10px;" {{$darker}}>
         <div class="col-sm-4">
             <div class="card" style="min-height: 222px;">
-                <div class="card-body">
+                <div class="card-body" {{$darker}}>
                     <h5 class="card-title">Vurma cədvəli</h5>
-                    <p class="card-text">Burda vurma cədvəlinə aid suallar etməklə vurmanı daha mükəmməl biləcəksiniz</p>
+                    <p class="card-text">Burada vurma cədvəlinə aid suallar etməklə vurmanı daha mükəmməl biləcəksiniz</p>
                     <a href="{{route('multiplicationStart')}}" class="btn btn-primary" style="position: absolute;bottom: 0px;right: 0px; ">Başla</a>
                 </div>
             </div>
         </div>
         <div class="col-sm-4">
             <div class="card">
-                <div class="card-body" style="min-height: 222px;">
+                <div class="card-body" style="min-height: 222px;" {{$darker}}>
                     <h5 class="card-title">Toplama</h5>
-                    <p class="card-text">Burda siz 100 dairəsində suallar həll etməklə yazılı və şifahi hesablama bacarıqları əldə edəcəksiniz</p>
-                    <a href="#" class="btn btn-primary" style="position: absolute;bottom: 0px;right: 0px; ">Başla</a>
+                    <p class="card-text">Burada siz 100 dairəsində toplama sualları həll etməklə yazılı və şifahi hesablama bacarıqları əldə edəcəksiniz</p>
+                    <a href="{{route('additionStart')}}" class="btn btn-primary" style="position: absolute;bottom: 0px;right: 0px; ">Başla</a>
                 </div>
             </div>
         </div>
         <div class="col-sm-4">
             <div class="card">
-                <div class="card-body" style="min-height: 222px;">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary" style="position: absolute;bottom: 0px;right: 0px; ">Go somewhere</a>
+                <div class="card-body" style="min-height: 222px;" {{$darker}}>
+                    <h5 class="card-title">Çıxma</h5>
+                    <p class="card-text">Burada siz 100 dairəsində çıxma sualları həll etməklə yazılı və şifahi hesablama bacarıqları əldə edəcəksiniz</p>
+                    <a href="{{route('minusStart')}}" class="btn btn-primary" style="position: absolute;bottom: 0px;right: 0px; ">Başla</a>
                 </div>
             </div>
         </div>
